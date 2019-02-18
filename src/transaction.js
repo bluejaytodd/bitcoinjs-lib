@@ -23,7 +23,7 @@ function vectorSize (someVector) {
 }
 
 function Transaction () {
-  this.version = 3
+  this.version = 1
   this.locktime = 0
   this.timestamp = 0
   this.ins = []
@@ -31,7 +31,7 @@ function Transaction () {
   this.joinsplits = []
   this.versionGroupId = '0x03c48270'
   this.expiry = 0
-  this.zcash = true
+  this.zcash = false
   this.spendDescs = [];
   this.outputDescs = [];
 }
